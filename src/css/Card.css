@@ -1,0 +1,74 @@
+.line {
+  width: 80%;
+  margin: auto;
+}
+
+.card_1,
+.card_2,
+.card_3,
+.card_4 {
+  padding: 50px;
+}
+
+
+
+
+.card_1 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+
+.desc_1,
+.desc_2,
+.desc_3,
+.desc_4 {
+  padding-left: 80px;
+  font-size: larger;
+}
+
+.card_2 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+.card_3 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+.card_4 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+
+@media (max-width: 767px) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* .desc_1,
+  .desc_2,
+  .desc_3,
+  .desc_4 {
+    font-size: smaller;
+    text-align: center;
+  } */
+}

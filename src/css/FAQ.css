@@ -1,0 +1,45 @@
+.faq_area {
+  text-align: center;
+}
+
+.heading {
+  font-size: 4em;
+}
+
+.question {
+  cursor: pointer;
+}
+
+.question,
+.answer {
+  padding: 25px 45px;
+  font-size: 2em;
+  width: 100%;
+  background-color: var(--primary-shadow);
+  color: var(--primary-text-color);
+  text-align: left;
+}
+
+.question:hover {
+  color: red;
+}
+
+.desc {
+  font-size: 1.5em;
+}
+
+.mail_box {
+  width: 40%;
+  height: 3em;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.get_btn {
+  width: 30%;
+  height: 3em;
+  border: none;
+  background-color: red;
+  color: var(--primary-text-color);
+  font-size: 15px;
+}

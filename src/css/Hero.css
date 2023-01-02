@@ -1,0 +1,113 @@
+.bg_hero_container {
+  width: 100%;
+  height: 100%;
+}
+
+.bg_hero_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.bg_overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-shadow);
+}
+
+.hero_container {
+  position: absolute;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.hero_title {
+  font-size: 4em;
+}
+
+.hero_subtitle {
+  font-size: 2.25em;
+}
+
+.desc {
+  font-size: 1.5em;
+}
+
+.email_box {
+  width: 80%;
+  height: 3em;
+  padding-left: 10px;
+  font-size: 25px;
+}
+
+.start_btn {
+  width: 30%;
+  height: 3em;
+  border: none;
+  background-color: red;
+  color: var(--primary-text-color);
+  font-size: 25px;
+}
+
+@media (max-width: 767px) {
+  .hero_container {
+    padding: 50px;
+    position: relative;
+  }
+  .start_btn {
+    width: 50%;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero_title {
+    font-size: 2rem;
+  }
+  .hero_subtitle {
+    font-size: 1.5rem;
+  }
+  .desc {
+    font-size: 1rem;
+  }
+  .email_box,
+  .start_btn {
+    font-size: 10px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bg_hero_image {
+    display: none;
+  }
+  .hero_container {
+    top: 8%;
+    left: 5%;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero_container {
+    top: 3%;
+    left: 3%;
+  }
+}
+
+@media (min-width: 920px) and (max-width: 1023px) {
+  .hero_container {
+    left: 15%;
+    top: 15%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero_container {
+    left: 25%;
+    top: 25%;
+  }
+}
