@@ -35,7 +35,7 @@ const FAQ = () => {
       <div className="faq_area">
         <h1 className="heading">Frequently Asked Questions</h1> <br />
         <div>
-          <Disclosure>
+          <Disclosure as="span">
             {({ open }) => (
               <>
                 <Disclosure.Button className="question">

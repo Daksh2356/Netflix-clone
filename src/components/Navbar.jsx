@@ -5,35 +5,6 @@ import image from "../images/image.png";
 import { BsGlobe } from "react-icons/bs";
 
 const Navbar = () => {
-  const [theme, setTheme] = useState("dark");
-  function switchTheme() {
-    console.log("switching theme..");
-    if (theme === "dark") {
-      document.documentElement.setAttribute("data-theme", "light");
-      setTheme("light");
-    } else {
-      document.documentElement.setAttribute("data-theme", "dark");
-      setTheme("dark");
-    }
-  }
-
-  useEffect(() => {
-    let time = new Date().getHours();
-    let darkMode = false;
-    if (time >= 19 || time < 7) {
-      document.documentElement.setAttribute("data-theme", "dark");
-      setTheme("dark");
-      darkMode = true;
-    } else {
-      document.documentElement.setAttribute("data-theme", "light");
-      setTheme("light");
-      darkMode = false;
-    }
-    // console.log(time);
-    // console.log(darkMode);
-    // console.log(document.documentElement.getAttribute("data-theme"));
-  }, []);
-
   return (
     <>
       <header>

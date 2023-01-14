@@ -1,11 +1,11 @@
 .bg_hero_container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .bg_hero_image {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
   overflow: hidden;
 }
@@ -14,7 +14,7 @@
   position: absolute;
   inset: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: var(--primary-shadow);
 }
 
@@ -39,7 +39,7 @@
 }
 
 .email_box {
-  width: 80%;
+  width: 50%;
   height: 3em;
   padding-left: 10px;
   font-size: 25px;
@@ -55,10 +55,6 @@
 }
 
 @media (max-width: 767px) {
-  .hero_container {
-    padding: 50px;
-    position: relative;
-  }
   .start_btn {
     width: 50%;
   }
@@ -82,9 +78,6 @@
 }
 
 @media (max-width: 767px) {
-  .bg_hero_image {
-    display: none;
-  }
   .hero_container {
     top: 8%;
     left: 5%;
@@ -95,13 +88,6 @@
   .hero_container {
     top: 3%;
     left: 3%;
-  }
-}
-
-@media (min-width: 920px) and (max-width: 1023px) {
-  .hero_container {
-    left: 15%;
-    top: 15%;
   }
 }
 

@@ -10,9 +10,6 @@
   padding: 50px;
 }
 
-
-
-
 .card_1 {
   position: relative;
   display: grid;
@@ -55,7 +52,7 @@
   padding: 25px 45px 50px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 920px) {
   .card_1,
   .card_2,
   .card_3,
@@ -63,12 +60,4 @@
     display: flex;
     flex-direction: column;
   }
-
-  /* .desc_1,
-  .desc_2,
-  .desc_3,
-  .desc_4 {
-    font-size: smaller;
-    text-align: center;
-  } */
 }
