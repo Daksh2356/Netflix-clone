@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+## Intro to the project
+A Netflix Clone made using ReactJs and CSS variables. It opens the site in the appropriate theme according to the time and also allows an option to toggle between dark and light theme
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
